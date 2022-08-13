@@ -1,0 +1,26 @@
+{
+  "name": "log-remove",
+  "version": "1.0.0",
+  "description": "removes all JavaScript console messages from giving directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-adam-dev/log-remove.git"
+  },
+  "keywords": [
+    "console",
+    "remove",
+    "messages",
+    "message",
+    "log"
+  ],
+  "author": "Ahmed Adam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-adam-dev/log-remove/issues"
+  },
+  "homepage": "https://github.com/ahmed-adam-dev/log-remove#readme"
+}
