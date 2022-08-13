@@ -1,6 +1,6 @@
 {
   "name": "log-remove",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "removes all JavaScript console messages from giving directory",
   "main": "index.js",
   "scripts": {
