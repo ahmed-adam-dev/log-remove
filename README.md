@@ -7,7 +7,7 @@ log-remove its a javascript package targets console messages and remove them fro
 ## Installation
 
 ```bash
-$ npm install soap
+$ npm install log-remove
 ```
 
 ## Example In Node.js
