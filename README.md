@@ -15,7 +15,7 @@ $ npm install log-remove
 Add the following to your entry node.js file
 
 ```
-const logRemove = requier("log-remove");
+const logRemove = require("log-remove");
 let myDir = "project/test" // whatever folder name your project in
 logRemove(myDir)
 ```
