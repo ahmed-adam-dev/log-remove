@@ -40,8 +40,20 @@ var walk = function (dir, done) {
     }
   });
 };
-
-let logRemove = (dir) => {
+let dir = process.argv[2];
+exports.logRemove = () => {
+  if (!dir) {
+    console.log(
+      "add the folder you want to clear its logs as a args \nuse this instead \n \nlogrm your-project-folder"
+    );
+    return;
+  }
+  if (dir == ".") {
+    console.log(
+      "you cant use this root operator here\nuse this instead \nlogrm your-project-folder"
+    );
+    return;
+  }
   walk(dir, function (err, results) {
     if (err) throw err;
     results.forEach((result) => {
@@ -50,11 +62,3 @@ let logRemove = (dir) => {
     console.log(`all your files are clean ✔`);
   });
 };
-/*
- import logRemove method any where
- in your project and
- pass the directory to
- start remove console
- messages
-*/
-module.exports = logRemove;

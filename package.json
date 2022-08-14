@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "removes all JavaScript console messages from giving directory",
   "main": "index.js",
+  "bin": {
+    "logrm": "log-remove"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

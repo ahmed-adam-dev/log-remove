@@ -7,27 +7,15 @@ log-remove its a javascript package targets console messages and remove them fro
 ## Installation
 
 ```bash
-$ npm install log-remove
+$ npm install --save-dev log-remove
 ```
 
-## Example In Node.js
+## Example In Terminal
 
-Add the following to your entry node.js file
+Add the following to your Terminal
 
-```
-const logRemove = require("log-remove");
-let myDir = "project/test" // whatever folder name your project in
-logRemove(myDir)
-```
-
-## Example In Pure JavaScript
-
-Add the following to your JavaScript file
-
-```
-import logRemove from "log-remove";
-let myDir = "project/test" // whatever folder name your project in
-logRemove(myDir)
+```bash
+$ logrm your-folder-name
 ```
 
 ## Stay in touch
