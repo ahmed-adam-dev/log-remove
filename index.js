@@ -3,7 +3,7 @@ var path = require("path");
 var walk = function (dir, done) {
   var results = [];
   fs.readdir(dir, function (err, list) {
-    if (process.cwd() != "node_modules") {
+    if (process.cwd() != "node_modules" || process.cwd() != "log-remove") {
       if (err) return done(err);
       var pending = list.length;
       if (!pending) return done(null, results);
@@ -50,7 +50,7 @@ exports.logRemove = () => {
   }
   if (dir == ".") {
     console.log(
-      'if you\'re in the root path please point to parent folder first \nuse this instead \n \nlogrm "../your-project-folder"'
+      "if you're in the root back to the parent of the root and use :\nlogrm your-project-folder"
     );
     return;
   }

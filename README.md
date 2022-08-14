@@ -18,10 +18,10 @@ Add the following to your Terminal
 $ logrm your-folder-name
 ```
 
-if you're in the root directory add the following to your Terminal
+if you're in the root directory back to the parnet of your directory folder and add the following to your Terminal
 
 ```bash
-$ logrm "../your-folder-name"
+$ logrm your-folder-name
 ```
 
 ## Stay in touch
