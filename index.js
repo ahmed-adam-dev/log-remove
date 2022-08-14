@@ -49,10 +49,7 @@ exports.logRemove = () => {
     return;
   }
   if (dir == ".") {
-    console.log(
-      "you cant use this root operator here\nuse this instead \nlogrm your-project-folder"
-    );
-    return;
+    dir = process.cwd();
   }
   walk(dir, function (err, results) {
     if (err) throw err;
