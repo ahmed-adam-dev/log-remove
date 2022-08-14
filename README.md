@@ -18,6 +18,12 @@ Add the following to your Terminal
 $ logrm your-folder-name
 ```
 
+if you're in the root directory add the following to your Terminal
+
+```bash
+$ logrm "../your-folder-name"
+```
+
 ## Stay in touch
 
 - Author - [Ahmed Adam]
