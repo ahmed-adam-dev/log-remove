@@ -7,7 +7,7 @@ log-remove its a javascript package targets console messages and remove them fro
 ## Installation
 
 ```bash
-$ npm install --save-dev log-remove
+$ npm install -g log-remove
 ```
 
 ## Example In Terminal
@@ -18,7 +18,16 @@ Add the following to your Terminal
 $ logrm your-folder-name
 ```
 
-if you're in the root directory back to the parnet of your directory folder and add the following to your Terminal
+if you're in the root directory :
+1- install this package global if your'not
+
+```bash
+$ npm install log-remove
+```
+
+2- back to the parnet of your directory folder
+
+add the following to your Terminal
 
 ```bash
 $ logrm your-folder-name

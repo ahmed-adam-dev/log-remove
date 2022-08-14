@@ -50,7 +50,7 @@ exports.logRemove = () => {
   }
   if (dir == ".") {
     console.log(
-      "if you're in the root back to the parent of the root and use :\nlogrm your-project-folder"
+      "if you're in the root back to the parent of the root\ndont forget to install it gloabal if your'not \ntry to use :\nlogrm your-project-folder"
     );
     return;
   }
