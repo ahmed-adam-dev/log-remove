@@ -19,10 +19,11 @@ $ logrm your-folder-name
 ```
 
 if you're in the root directory :
+
 1- install this package global if your'not
 
 ```bash
-$ npm install log-remove
+$ npm install -g log-remove
 ```
 
 2- back to the parnet of your directory folder
