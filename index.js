@@ -49,7 +49,9 @@ exports.logRemove = () => {
     return;
   }
   if (dir == ".") {
-    ('if you\'re in the root path please point to parent folder first \nuse this instead \n \nlogrm "../your-project-folder"');
+    console.log(
+      'if you\'re in the root path please point to parent folder first \nuse this instead \n \nlogrm "../your-project-folder"'
+    );
     return;
   }
   walk(dir, function (err, results) {
